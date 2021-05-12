@@ -1,0 +1,46 @@
+/*========================
+				icon
+=========================*/
+
+.icon-blue {
+  color: var(--azul);
+}
+.icon.icon-blue:hover {
+  color: var(--azul-hover);
+}
+.icon-red {
+  color: var(--rojo);
+}
+.icon.icon-red:hover {
+  color: var(--rojo-hover);
+}
+.icon-yellow {
+  color: var(--amarillo);
+}
+.icon.icon-yellow:hover {
+  color: var(--amarillo-hover);
+}
+.icon-dark {
+  color: var(--dark);
+}
+.icon.icon-dark:hover {
+  color: var(--dark-hover);
+}
+.icon-green {
+  color: var(--verde);
+}
+.icon.icon-green:hover {
+  color: var(--verde-hover);
+}
+.icon-purpura {
+  color: var(--purpura);
+}
+.icon.icon-purpura:hover {
+  color: var(--purpura-hover);
+}
+.icon-orange {
+  color: var(--naranja);
+}
+.icon.icon-orange:hover {
+  color: var(--naranja-hover);
+}

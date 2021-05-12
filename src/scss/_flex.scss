@@ -1,0 +1,113 @@
+/*========================
+display flex
+================*/
+
+.d-flex {
+  display: flex;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-start {
+  justify-content: flex-start;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+.align-items-start {
+  align-items: flex-start;
+}
+.align-items-end {
+  align-items: flex-end;
+}
+.align-items-center {
+  align-items: center;
+}
+.d-block {
+  display: block;
+}
+
+/* dispositivos medianos */
+
+@media screen and (max-width:992px) {
+  .d-flex-md {
+    display: flex;
+  }
+  .justify-content-end-md {
+    justify-content: flex-end;
+  }
+  .justify-content-center-md {
+    justify-content: center;
+  }
+  .justify-content-start-md {
+    justify-content: flex-start;
+  }
+  .justify-content-between-md {
+    justify-content: space-between;
+  }
+  .justify-content-around-md {
+    justify-content: space-around;
+  }
+  .justify-content-evenly-md {
+    justify-content: space-evenly;
+  }
+  .align-items-start-md {
+    align-items: flex-start;
+  }
+  .align-items-end-md {
+    align-items: flex-end;
+  }
+  .align-items-center-md {
+    align-items: center;
+  }
+  .d-block-md {
+    display: block;
+  }
+}
+
+/* dispositivos pequenos */
+
+@media screen and (max-width: 576px) {
+  .d-flex-sm {
+    display: flex;
+  }
+  .justify-content-end-sm {
+    justify-content: flex-end;
+  }
+  .justify-content-center-sm {
+    justify-content: center;
+  }
+  .justify-content-start-sm {
+    justify-content: flex-start;
+  }
+  .justify-content-between-sm {
+    justify-content: space-between;
+  }
+  .justify-content-around-sm {
+    justify-content: space-around;
+  }
+  .justify-content-evenly-sm {
+    justify-content: space-evenly;
+  }
+  .align-items-start-sm {
+    align-items: flex-start;
+  }
+  .align-items-end-sm {
+    align-items: flex-end;
+  }
+  .align-items-center-sm {
+    align-items: center;
+  }
+  .d-block-sm {
+    display: block;
+  }
+}

@@ -1,0 +1,108 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+:root {
+  /* --fuente: 'Poppins', sans-serif; */
+  --fondo: #f2f2f2;
+  --ancho-contenedor: 1200px;
+  --azul: rgb(31, 58, 147);
+  --azul-hover: rgba(31, 58, 147, 0.8);
+  --sherpa: #013141;
+  --purpura: rgb(76, 5, 230);
+  --purpura-hover: rgba(76, 5, 230, 0.8);
+  --morado: #9D00D1;
+  --naranja: rgb(255, 61, 0);
+  --naranja-hover: rgba(255, 61, 0, 0.8);
+  --rojo: #cf000f;
+  --rojo-hover: rgba(209, 0, 14, 0.8);
+  --amarillo: #ffc107;
+  --amarillo-hover: rgba(255, 193, 7, 0.8);
+  --verde: #198754;
+  --verde-hover: rgba(25, 135, 84, 0.8);
+  --teal: #20c997;
+  --blanco: #fff;
+  --negro: #000;
+  --dark: #212529;
+  --dark-hover: rgba(33, 37, 41, 0.8);
+  --transition: .3s ease all;
+  --hover: rgba(180, 166, 243, 0.24);
+  --gris: #ccc;
+}
+
+/*===================
+documento
+===================*/
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 18px;
+  position: relative;
+}
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 0.25;
+}
+hr:not([size]) {
+  height: 1px;
+}
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+a {
+  text-decoration: none;
+}
+p {
+  line-height: 1.6875em;
+}
+.img {
+  vertical-align: top;
+  width: 100%;
+}
+.contenedor {
+  max-width: 90%;
+  width: var(--ancho-contenedor);
+  margin: 1.25em auto;
+  overflow: hidden;
+  font-size: 1em;
+}
+.contenedor-ancho {
+  width: 100%;
+  margin: 1.25rem auto;
+  padding: 0px 1.25rem;
+  font-size: 1em;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav a {
+  /* color: #fff; */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0.9375rem 1.5625rem;
+  transition: var(--transition);
+  font-size: 1em;
+}
+.nav a.activo, .nav a:hover {
+  background: var(--hover);
+}
+.nav .contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px auto;
+}
+.nav a.nav-link {
+  display: block;
+  width: 100%;
+  padding: 0.3125rem 0rem 0.3125rem 0.9375rem;
+  text-align: left;
+}

@@ -1,0 +1,77 @@
+.font-1 {
+  font-size: 1em;
+}
+.font-2 {
+  font-size: 1.5em;
+}
+.font-3 {
+  font-size: 2em;
+}
+.font-4 {
+  font-size: 2.5em;
+}
+.font-5 {
+  font-size: 3em;
+}
+
+/*========================
+				texto
+=========================*/
+
+.text-b {
+  font-weight: bold;
+}
+.text-c {
+  text-align: center;
+}
+.text-l {
+  text-align: left;
+}
+.text-r {
+  text-align: right;
+}
+.text-j {
+  text-align: justify;
+}
+.bold {
+  font-weight: bold;
+}
+.text-morado {
+  color: var(--morado);
+}
+.text-blue {
+  color: var(--azul);
+}
+.text-red {
+  color: var(--rojo);
+}
+.text-yellow {
+  color: var(--amarillo);
+}
+.text-dark {
+  color: var(--dark);
+}
+.text-green {
+  color: var(--verde);
+}
+.text-purpura {
+  color: var(--purpura);
+}
+.text-orange {
+  color: var(--naranja);
+}
+.text-white {
+  color: var(--blanco);
+}
+.text-black {
+  color: var(--negro);
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+.text-upercase {
+  text-transform: uppercase;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
