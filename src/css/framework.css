@@ -2038,7 +2038,7 @@ animacion
   text-align: center;
   line-height: 1.375rem;
   transition: var(--transition);
-  margin: 5px 0px;
+  margin: 0px 0px;
 }
 
 .btn-auto {
@@ -2068,7 +2068,10 @@ animacion
   line-height: 1.375rem;
 }
 
-button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
+button:not(:disabled),
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled) {
   cursor: pointer;
 }
 

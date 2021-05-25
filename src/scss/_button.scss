@@ -3,106 +3,134 @@
 =========================*/
 
 .btn-blue {
-  background: var(--azul);
+    background: var(--azul);
 }
+
 .btn.btn-blue:hover {
-  background-color: var(--azul-hover);
+    background-color: var(--azul-hover);
 }
+
 .btn-red {
-  background-color: var(--rojo);
+    background-color: var(--rojo);
 }
+
 .btn.btn-red:hover {
-  background-color: var(--rojo-hover);
+    background-color: var(--rojo-hover);
 }
+
 .btn-yellow {
-  background-color: var(--amarillo);
+    background-color: var(--amarillo);
 }
+
 .btn.btn-yellow:hover {
-  background-color: var(--amarillo-hover);
+    background-color: var(--amarillo-hover);
 }
+
 .btn-dark {
-  background-color: var(--dark);
+    background-color: var(--dark);
 }
+
 .btn.btn-dark:hover {
-  background-color: var(--dark-hover);
+    background-color: var(--dark-hover);
 }
+
 .btn-green {
-  background-color: var(--verde);
+    background-color: var(--verde);
 }
+
 .btn.btn-green:hover {
-  background-color: var(--verde-hover);
+    background-color: var(--verde-hover);
 }
+
 .btn-purpura {
-  background-color: var(--purpura);
+    background-color: var(--purpura);
 }
+
 .btn.btn-purpura:hover {
-  background-color: var(--purpura-hover);
+    background-color: var(--purpura-hover);
 }
+
 .btn-orange {
-  background-color: var(--naranja);
+    background-color: var(--naranja);
 }
+
 .btn.btn-orange:hover {
-  background-color: var(--naranja-hover);
+    background-color: var(--naranja-hover);
 }
+
 .btn {
-  border: none;
-  cursor: pointer;
-  display: inline-block;
-  padding: 0.625rem 0.9375rem;
-  color: #fff;
-  border-radius: 0.1875rem;
-  text-align: center;
-  line-height: 1.375rem;
-  transition: var(--transition);
-  margin: 5px 0px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.625rem 0.9375rem;
+    color: #fff;
+    border-radius: 0.1875rem;
+    text-align: center;
+    line-height: 1.375rem;
+    transition: var(--transition);
+    margin: 0px 0px;
 }
+
 .btn-auto {
-  width: 100%;
-  margin: 0px 2px;
+    width: 100%;
+    margin: 0px 2px;
 }
+
 .btn:hover {
-  background-color: var(--hover);
+    background-color: var(--hover);
 }
+
 .btn-large {
-  width: 100%;
-  padding: 0.9375rem 1.25rem;
+    width: 100%;
+    padding: 0.9375rem 1.25rem;
 }
+
 .btn-small {
-  width: 30%;
-  text-align: center;
-  padding: 0.3125rem 0.625rem;
+    width: 30%;
+    text-align: center;
+    padding: 0.3125rem 0.625rem;
 }
+
 .btn-medium {
-  width: 50%;
-  text-align: center;
-  padding: 0.3125rem 0.625rem;
-  line-height: 1.375rem;
+    width: 50%;
+    text-align: center;
+    padding: 0.3125rem 0.625rem;
+    line-height: 1.375rem;
 }
-button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
-  cursor: pointer;
+
+button:not(:disabled),
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled) {
+    cursor: pointer;
 }
+
 .btn:disabled {
-  pointer-events: none;
-  opacity: 0.65;
+    pointer-events: none;
+    opacity: 0.65;
 }
+
 .btn:focus {
-  outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
+
 .moveUp {
-  position: fixed;
-  right: 20px;
-  bottom: 10px;
-  background: var(--rojo);
-  color: var(--blanco);
-  width: 50px;
-  height: 50px;
-  border: none;
-  border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    background: var(--rojo);
+    color: var(--blanco);
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
 }
+
 .moveUp:hover {
-  background: var(--rojo-hover);
+    background: var(--rojo-hover);
 }
+
 .none {
-  display: none;
+    display: none;
 }
